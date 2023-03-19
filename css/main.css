@@ -1,9 +1,83 @@
 
 .body {
   position: absolute;
-  height: 100%;
-  width: 150%;
+  height: 235%;
+  width: 100%;
   margin-left: -8px;
   margin-top: -8px;
   background-image: linear-gradient(rgb(0, 255, 106), rgb(177, 52, 255));
+  text-align: center;
+ 
+}
+
+
+
+.texto {
+  font-family: system-ui, -apple-system, Montserrat BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.white {
+  color: aliceblue;
+}
+.black {
+  color: rgb(20, 20, 20);
+}
+
+.miner {
+  width: 65%;
+}
+
+.stakecare {
+  width: 65%; 
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+.presentation {
+
+  font-weight: 700;
+  font-size: 45px;
+  /* margin-bottom: 5rem; */
+
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+
+
+.normal {
+  font-size: 30px; 
+}
+
+.transparent {
+  background-color: rgba(78, 78, 78, 0.5);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+
+.body-secundary {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-left: -8px;
+  margin-top: -8px;
+  background-image: linear-gradient(rgb(185, 188, 187), rgb(177, 52, 255));
+  text-align: center;
+  /* justify-content: center; */
+ 
+}
+
+.medidor {
+
+  border: solid 10px rgb(177, 52, 255);
+  margin: 20px 20px;
+  height: 50px;
+
+
 }
